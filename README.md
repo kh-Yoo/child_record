@@ -36,7 +36,7 @@ QR코드를 넣어 동영상 재생을 하는 것도 좋다고 생각합니다.
 
 node server.js를 입력한 후에
 
-<img width="874" height="370" alt="image" src="https://github.com/user-attachments/assets/14cc86df-e9eb-4195-aebc-a89582bbba27" />
+<img width="875" height="485" alt="image" src="https://github.com/user-attachments/assets/1de51121-f40b-4ccc-bbe0-e3b7c4787910" />
 
 API 키를 입력하고 실행하면 됩니다!
 
