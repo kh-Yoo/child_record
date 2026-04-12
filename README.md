@@ -1,5 +1,5 @@
-# child_record
-# 아이의 1 ~ 7세까지의 성장일지
+# 7년의 기적, 초등학교 입학을 앞두고
+<img width="714" height="132" alt="image" src="https://github.com/user-attachments/assets/7b871ba2-b541-4c97-99b8-8edb112b39ad" />
 
 ## 1. 프로젝트 개요  
 **프로젝트 주제 선정 이유**
