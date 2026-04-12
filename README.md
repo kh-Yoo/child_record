@@ -48,8 +48,8 @@ Book Print API를 활용하여 아래 순서대로 포토북을 생성합니다.
 - 실시간 미리보기 강화
 
 ## 실행 영상
-![7년의 기적, 초등학교 입학을 앞두고 - Chrome 2026-04-12 15-23-48](https://github.com/user-attachments/assets/42b63b16-28b6-4f8b-a1bd-d660abafc75a)
-  
+![7년의 기적, 초등학교 입학을 앞두고 - Chrome 2026-04-12 16-27-39](https://github.com/user-attachments/assets/504f572a-950a-4bb9-9469-2a03dab36c27)
+
 ## 사용한 API 목록
 <img width="595" height="151" alt="image" src="https://github.com/user-attachments/assets/dd474946-1aab-4d62-9960-02f1905a31c7" />
 
