@@ -1,5 +1,3 @@
-# 7년의 기적, 초등학교 입학을 앞두고
-
 <img width="671" height="128" alt="image" src="https://github.com/user-attachments/assets/bc7f7d5e-c426-4b13-afe5-2feb076fd420" />
 
 ## 프로젝트 소개
