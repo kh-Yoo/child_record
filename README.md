@@ -55,3 +55,5 @@ API 키를 입력하고 실행하면 됩니다!
 ```bash
 git clone https://github.com/kh-Yoo/child_record.git
 cd child_record
+npm install
+npm run dev
