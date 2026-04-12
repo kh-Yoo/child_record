@@ -35,13 +35,12 @@ Book Print API를 활용하여 아래 순서대로 포토북을 생성합니다.
 - QR코드 삽입을 통한 동영상 연동
 - AI 기반 자동 레이아웃 및 템플릿 추천 기능
 - 실시간 미리보기 강화
+- 
+## 사용한 API 목록
+<img width="595" height="151" alt="image" src="https://github.com/user-attachments/assets/dd474946-1aab-4d62-9960-02f1905a31c7" />
 
-## 실행 방법
-1. 저장소 클론
-```bash
-git clone https://github.com/kh-Yoo/child_record.git
-cd child_record
-
+## AI 도구 사용 내
+<img width="730" height="96" alt="image" src="https://github.com/user-attachments/assets/e1deb11f-10ed-4b81-9afb-ffcb0d1f758a" />
 ## 실행 방법
 <img width="324" height="69" alt="image" src="https://github.com/user-attachments/assets/bc475d6e-f47d-477d-8ca6-d07a82e5f5ef" />
 
@@ -51,8 +50,7 @@ node server.js를 입력한 후에
 
 API 키를 입력하고 실행하면 됩니다!
 
-## 사용한 API 목록
-<img width="595" height="151" alt="image" src="https://github.com/user-attachments/assets/dd474946-1aab-4d62-9960-02f1905a31c7" />
-
-## AI 도구 사용 내
-<img width="730" height="96" alt="image" src="https://github.com/user-attachments/assets/e1deb11f-10ed-4b81-9afb-ffcb0d1f758a" />
+1. 저장소 클론
+```bash
+git clone https://github.com/kh-Yoo/child_record.git
+cd child_record
