@@ -46,6 +46,9 @@ Book Print API를 활용하여 아래 순서대로 포토북을 생성합니다.
 - QR코드 삽입을 통한 동영상 연동
 - AI 기반 자동 레이아웃 및 템플릿 추천 기능
 - 실시간 미리보기 강화
+
+## 실행 영상
+![7년의 기적, 초등학교 입학을 앞두고 - Chrome 2026-04-12 15-23-48](https://github.com/user-attachments/assets/42b63b16-28b6-4f8b-a1bd-d660abafc75a)
   
 ## 사용한 API 목록
 <img width="595" height="151" alt="image" src="https://github.com/user-attachments/assets/dd474946-1aab-4d62-9960-02f1905a31c7" />
