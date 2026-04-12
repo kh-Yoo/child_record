@@ -1,55 +1,4 @@
 # 7년의 기적, 초등학교 입학을 앞두고
-<img width="671" height="128" alt="image" src="https://github.com/user-attachments/assets/bc7f7d5e-c426-4b13-afe5-2feb076fd420" />
-
-## 1. 프로젝트 개요  
-**프로젝트 주제 선정 이유**
-
-이 프로젝트는 1 ~ 7세까지의 아이의 초등학교 입학 전까지의 성장일기를 담은 책이다.
-수도 없이 많은 아이들의 사진들 그리고 많은 추억들을 가지고 책으로 만들고 나서 이후에 아이가 커서 보면 감동이 될 것이고
-잊혀지더라도 책을 보면서 다시 그 추억들을 상기시킬 수 있기 떄문이다.
-함께한 수많은 날들 좋았기도 했지만 아이가 아파서 속상하기도 했던 그리고 부모로서의 아이에 대한 애정이 담긴 책이 될 것이다.
-
-## 2. 프로젝트 목표
-
-잠들어있는 아이들의 사진들 그리고 그 사진에 대한 감정들을 책으로 만들어내서 아이가 커서 부모의 마음을 느낄 수 있도록 하는 것이 목표이다.
-
-## 4. 웹 애플리케이션 소개  
-
-이건 아주 간단하다.
-일기장과 같이 내용들을 입력한 것들과 사진들만 있으면 아주 간단하게 책으로 만들어 낼 수 있다.
-책 생성 -> 표지 추가 -> 내지 추가 -> 책 확정 -> 주문 과 같이 이러한 순차적인 순서들을 바탕으로 만들어 낸다.
-
-## 5. 프로젝트 선택 이유
-
-아이들의 작은 꼼지락 거리는 모습 하나하나까지도 기억하고 싶어하는 것이 부모 마음이니 그들에게 시간이 지나가는 것에 대한 아쉬움보다 추억으로 남겨져서 책으로 볼 수 있다는 행복을 주고 싶기때문이다.
-
-## 6. 이 서비스의 비즈니스 가능성을 어떻게 보는지
-
-아기 수첩이나 아이들의 사진들을 모으는 부모님들이 많으니 타겟층을 잡았을 때 비즈니스 가능성은 중간 정도라고 생각합니다.
-
-## 7. 더 시간이 있었다면 추가했을 기능
-
-QR코드를 넣어 동영상 재생을 하는 것도 좋다고 생각합니다.
-
-## 8. 실행 방법
-<img width="324" height="69" alt="image" src="https://github.com/user-attachments/assets/bc475d6e-f47d-477d-8ca6-d07a82e5f5ef" />
-
-node server.js를 입력한 후에
-
-<img width="739" height="339" alt="image" src="https://github.com/user-attachments/assets/5b386c4f-f5e6-4f0b-b8d1-d7348813e033" />
-
-API 키를 입력하고 실행하면 됩니다!
-
-## 9. 사용한 API 목록
-<img width="595" height="151" alt="image" src="https://github.com/user-attachments/assets/dd474946-1aab-4d62-9960-02f1905a31c7" />
-
-## 10. AI 도구 사용 내
-<img width="730" height="96" alt="image" src="https://github.com/user-attachments/assets/e1deb11f-10ed-4b81-9afb-ffcb0d1f758a" />
-
-## 11. 구현 동영상
-
-
-# 7년의 기적, 초등학교 입학을 앞두고
 
 <img width="671" height="128" alt="image" src="https://github.com/user-attachments/assets/bc7f7d5e-c426-4b13-afe5-2feb076fd420" />
 
@@ -92,3 +41,18 @@ Book Print API를 활용하여 아래 순서대로 포토북을 생성합니다.
 ```bash
 git clone https://github.com/kh-Yoo/child_record.git
 cd child_record
+
+## 실행 방법
+<img width="324" height="69" alt="image" src="https://github.com/user-attachments/assets/bc475d6e-f47d-477d-8ca6-d07a82e5f5ef" />
+
+node server.js를 입력한 후에
+
+<img width="739" height="339" alt="image" src="https://github.com/user-attachments/assets/5b386c4f-f5e6-4f0b-b8d1-d7348813e033" />
+
+API 키를 입력하고 실행하면 됩니다!
+
+## 사용한 API 목록
+<img width="595" height="151" alt="image" src="https://github.com/user-attachments/assets/dd474946-1aab-4d62-9960-02f1905a31c7" />
+
+## AI 도구 사용 내
+<img width="730" height="96" alt="image" src="https://github.com/user-attachments/assets/e1deb11f-10ed-4b81-9afb-ffcb0d1f758a" />
