@@ -1,8 +1,8 @@
-<img width="671" height="128" alt="image" src="https://github.com/user-attachments/assets/bc7f7d5e-c426-4b13-afe5-2feb076fd420" />
-
 ## 프로젝트 소개
 초등학교 입학을 앞둔 우리 아이의 **1세부터 7세**까지 성장 기록을 아름다운 포토북으로 제작하는 웹 애플리케이션입니다.  
 부모가 그동안 찍어온 수많은 사진과 추억을 책으로 남겨, 아이가 커서 부모의 사랑과 마음을 느낄 수 있도록 만드는 것이 목표입니다.
+
+<img width="671" height="128" alt="image" src="https://github.com/user-attachments/assets/bc7f7d5e-c426-4b13-afe5-2feb076fd420" />
 
 ## 이 서비스를 선택한 이유
 저는 부모가 아이를 키우면서 가장 많이 느끼는 감정이 **시간이 너무 빠르게 지나간다**는 아쉬움이라고 생각합니다.  
