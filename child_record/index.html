@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7년의 기적, 초등학교 입학을 앞두고</title>
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff8e9e; /* 따뜻한 핑크 */
+            --secondary: #8ebaff; /* 산뜻한 블루 */
+            --order: #6c5ce7;    /* 주문 강조 보라색 */
+            --success: #5aa18a;
+            --bg: #fdfbf9;
+            --card: #ffffff;
+            --text: #4a4a4a;
+            --border: #f0ece9;
+        }
+
+        body { 
+            background-color: var(--bg); 
+            color: var(--text); 
+            font-family: 'Pretendard', sans-serif; 
+            margin: 0; padding: 40px 20px;
+            display: flex; justify-content: center;
+        }
+
+        .container { 
+            width: 100%; max-width: 550px; 
+            background: var(--card); 
+            padding: 40px; border-radius: 30px; 
+            box-shadow: 0 10px 30px rgba(230, 220, 210, 0.4);
+            border: 1px solid var(--border);
+        }
+
+        header { text-align: center; margin-bottom: 35px; }
+        h1 { 
+            font-size: 26px; 
+            color: var(--primary); 
+            margin: 0; 
+            font-weight: 800; 
+            letter-spacing: -0.8px;
+            line-height: 1.3;
+        }
+        header p { color: #999; font-size: 14px; margin-top: 10px; }
+
+        .input-box { margin-bottom: 25px; }
+        label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 8px; color: #666; }
+        
+        input[type="text"] { 
+            width: 100%; padding: 14px; background: #fafafa; border: 1px solid var(--border); 
+            border-radius: 12px; box-sizing: border-box; transition: 0.3s;
+            font-size: 15px;
+        }
+        input[type="text"]:focus { border-color: var(--primary); outline: none; background: #fff; }
+
+        .step-container {
+            display: flex; flex-direction: column; gap: 15px; margin-top: 25px;
+        }
+        
+        .step-row {
+            display: flex; align-items: center; gap: 15px;
+            padding: 12px; background: #fff; border: 1px solid var(--border);
+            border-radius: 18px; transition: 0.2s;
+        }
+        
+        .step-num {
+            width: 32px; height: 32px; background: #f0f0f0;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-size: 13px; font-weight: 800; color: #aaa; flex-shrink: 0;
+        }
+
+        button { 
+            flex: 1; padding: 14px; border: none; border-radius: 12px; 
+            font-weight: 700; cursor: pointer; transition: 0.3s; font-size: 14px;
+        }
+        
+        #btnInit { background: var(--text); color: white; width: 100%; margin-top: 10px; }
+        #btnCreateBook { background: #fff1f3; color: var(--primary); border: 1px solid #ffcad1; }
+        #btnUploadCover { background: #f0f5ff; color: var(--secondary); border: 1px solid #cadcff; }
+        #btnUploadPages { background: #f0fff4; color: var(--success); border: 1px solid #c6efcf; }
+        #btnFinalize { 
+            background: linear-gradient(135deg, var(--primary), var(--secondary)); 
+            color: white; margin-top: 15px; padding: 18px; font-size: 16px;
+            box-shadow: 0 5px 15px rgba(142, 186, 255, 0.3);
+        }
+        
+        /* 💡 추가된 주문 버튼 스타일 */
+        #btnOrder {
+            background: #fffafa;
+            color: var(--order);
+            border: 2px solid var(--order);
+            margin-top: 10px;
+            padding: 18px;
+            font-size: 16px;
+        }
+
+        button:hover { transform: translateY(-2px); filter: brightness(0.95); }
+        button:active { transform: translateY(0); }
+
+        .file-select-group {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px;
+        }
+        .file-box {
+            background: #fafafa; border: 1px solid var(--border); padding: 12px; border-radius: 12px;
+            text-align: center;
+        }
+        .file-box input { font-size: 11px; width: 100%; margin-top: 8px; color: #888; }
+
+        #logArea { 
+            margin-top: 35px; background: #fffcf8; border-radius: 20px; 
+            padding: 20px; height: 220px; overflow-y: auto;
+            font-size: 13px; border: 1px solid #f0ece9;
+            display: flex; flex-direction: column-reverse;
+        }
+        .log-line { margin-bottom: 8px; border-bottom: 1px dashed #eee; padding-bottom: 8px; }
+        .log-success { color: var(--success); font-weight: bold; }
+        .log-error { color: #e57373; }
+        .log-info { color: var(--secondary); }
+
+        hr { border: 0; border-top: 1px solid var(--border); margin: 30px 0; }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>7년의 기적, 초등학교 입학을 앞두고</h1>
+            <p>아이의 눈부신 성장을 한 권의 책으로 담습니다.</p>
+        </header>
+        
+        <div class="input-box">
+            <label>🔐 API AUTH KEY</label>
+            <input type="text" id="userApiKey" placeholder="Bearer 토큰을 입력하세요">
+            <button id="btnInit">인증 및 작업 시작</button>
+        </div>
+
+        <div id="flowSection" style="display:none; animation: fadeIn 0.6s ease-out forwards;">
+            <hr>
+            
+            <div class="input-box">
+                <label>📖 일지 대제목</label>
+                <input type="text" id="bookTitle" value="7년의 기적, 우리의 기록">
+            </div>
+
+            <div class="file-select-group">
+                <div class="file-box">
+                    <label>📕 표지 사진</label>
+                    <input type="file" id="coverFileSelector" accept="image/*">
+                </div>
+                <div class="file-box">
+                    <label>📖 내지 사진</label>
+                    <input type="file" id="pageFileSelector" accept="image/*">
+                </div>
+            </div>
+
+            <div class="step-container">
+                <div class="step-row">
+                    <div class="step-num">1</div>
+                    <button id="btnCreateBook">새 도서 객체 생성</button>
+                </div>
+
+                <div class="step-row">
+                    <div class="step-num">2</div>
+                    <button id="btnUploadCover">표지 데이터 전송</button>
+                </div>
+
+                <div class="step-row">
+                    <div class="step-num">3</div>
+                    <button id="btnUploadPages">내지 주입 (1000페이지)</button>
+                </div>
+
+                <button id="btnFinalize">✨ 4단계: 최종 제작 확정</button>
+                
+                <div class="step-row" style="border-color: var(--order); background: #f8f6ff;">
+                    <div class="step-num" style="background: var(--order); color: white;">5</div>
+                    <button id="btnOrder">🎁 마지막: 주문 생성 및 완료</button>
+                </div>
+            </div>
+
+            <div id="logArea">
+                <div class="log-line">기록을 시작할 준비가 되었습니다.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

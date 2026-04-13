@@ -1,0 +1,23 @@
+{
+  "title": "이안이의 1~6세 성장 기록",
+  "cover": {
+    "childName": "이안이",
+    "schoolName": "사랑하는 우리가족",
+    "volumeLabel": "Vol.1",
+    "periodText": "1살 ~ 6살의 빛나는 순간들"
+  },
+  "entries": [
+    {
+      "date": "2021-05-12",
+      "age": 1,
+      "memo": "우당탕탕! 드디어 오늘 혼자서 두 발로 일어섰다. 넘어지면서도 꺄르르 웃는 모습에 온 가족이 박수를 쳤다.",
+      "photos": ["step1.jpg", "step2.jpg"]
+    },
+    {
+      "date": "2026-02-18",
+      "age": 6,
+      "memo": "유치원 졸업식. 학사모를 쓰고 씩씩하게 졸업장을 받는 모습을 보니 코끝이 찡해졌다.",
+      "photos": ["graduation.jpg"]
+    }
+  ]
+}
