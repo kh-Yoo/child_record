@@ -51,7 +51,7 @@ Book Print API를 활용하여 아래 순서대로 포토북을 생성합니다.
 ![최종 영상](https://github.com/user-attachments/assets/3e45cdde-de70-4ff7-8c6c-d311b9648848)
 
 ## 사용한 API 목록
-<img width="595" height="151" alt="image" src="https://github.com/user-attachments/assets/dd474946-1aab-4d62-9960-02f1905a31c7" />
+<img width="607" height="168" alt="image" src="https://github.com/user-attachments/assets/97310ae0-a3c0-478b-b7a0-0aaf11e3bf40" />
 
 ## AI 도구 사용 내역
 <img width="730" height="96" alt="image" src="https://github.com/user-attachments/assets/e1deb11f-10ed-4b81-9afb-ffcb0d1f758a" />
